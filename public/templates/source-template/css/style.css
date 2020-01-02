@@ -1,0 +1,770 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(61, 33, 10); */
+    background-size: contain;
+}
+
+
+/* .border-helper {
+    border: solid 1px rgb(156, 123, 95);
+} */
+
+.container {
+    /* .content-background { */
+    max-width: 480px;
+    min-height: 100vh;
+    /* background-color: bisque; */
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+
+/* =====  HOME  ===== */
+
+.home {}
+
+.home-header {
+    height: 110px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.home-content {
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+.home-men {
+    margin-bottom: -15px;
+    font-size: 70px;
+    font-family: 'Alex Brush', cursive;
+}
+
+.home-separator {
+    
+    height: 35px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home-women {
+    margin-top: -15px;
+    font-size: 70px;
+    font-family: 'Alex Brush', cursive;
+    text-align: right;
+}
+
+.home-title {
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.home-date {
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.home-address {
+    font-size: 18px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-footer {
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* =====  BRIDE  ===== */
+
+.bride {
+    height: auto;
+}
+
+.bride-header {
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.bride-content {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 5px 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.bride-intro {
+    font-family: 'Satisfy', cursive;
+    font-size: 18px;
+}
+
+.bride-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: solid 3px rgb(214, 179, 141);
+}
+
+.bride-name {
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
+
+.bride-parents {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.bride-outro {
+    margin-top: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 18px;
+}
+
+.bride-footer {
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* =====  EVENT  ===== */
+
+.event {}
+
+.event-header {
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.event-content {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 5px 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.event-title {
+    margin-top: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+.event-events {
+    margin: 30px 0px;
+}
+
+.event-icon {
+    width: 100%;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.event-events-title {
+    margin-top: 10px;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
+
+.event-events h4 {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.event-footer {
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* =====  LOCATION  ===== */
+
+.location {}
+
+.location-header {
+    height: 80px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.location-title {
+    margin-top: 25px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+.location-maps img {
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+    /* background-image: url(../images/maps.png); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.location-icon {
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    background-image: url(../icons/gmaps-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.location-info {
+    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.location-footer {
+    height: 80px;
+/*    background-image: url(../images/locationFooter.png);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* =====  COMMENT  ===== */
+
+.comment {}
+
+.comment-header {
+    height: 80px;
+    /*background-image: url(../images/commentHeader.png);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.comment-title {
+    margin-top: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+}
+
+.comment-form {
+    padding: 10px 20px;
+}
+
+.button-send-comment {
+    border: solid 1px rgb(51, 34, 18);
+    background-color: rgb(102, 68, 36);
+}
+
+.comment-list {
+    margin-top: 30px;
+}
+
+.comment-list-item {
+    margin: 15px 20px;
+    border-radius: 5px;
+    border: solid 1px rgb(59, 37, 17);
+    background-color: rgb(233, 179, 135);
+    padding: 10px;
+}
+
+.comment-list-item-name {
+    color: rgb(59, 37, 17);
+    font-weight: bold;
+}
+
+.comment-list-item-message {
+    color: rgb(59, 37, 17);
+}
+
+.comment-footer {
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* =====  GALLERY  ===== */
+
+.gallery {}
+
+.gallery-header {
+    height: 80px;
+    /*background-image: url(../images/galleryHeader.png);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.gallery-content {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.gallery-title {
+    margin-top: 30px;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+}
+
+.gallery-mainphoto {
+    border: solid 1px rgb(151, 110, 77);
+    height: 200px;
+    /* background-image: url(../bride/wedding-1.jpg); */
+    background-size: cover;
+    margin: 1px;
+}
+
+.gallery-photos {
+    border: solid 1px rgb(151, 110, 77);
+    float: left;
+    width: 25%;
+    height: 100px;
+    /* background-image: url(../bride/wedding-2.jpg); */
+    background-size: cover;
+}
+
+.gallery-footer {
+    height: 80px;
+    /*background-image: url(../images/galleryFooter.png);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* =====  QUOTES  ===== */
+
+.quotes {}
+
+.quotes-header {
+    height: 110px;
+    /*background-image: url(../images/quotesHeader.png);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.quotes-content {
+    margin: 60px 20px;
+    /* max-width: 360px; */
+}
+
+.quotes-title {
+    margin-top: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+}
+
+.quotes-item {
+    margin-top: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+
+.quotes-footer {
+    height: 110px;
+    /*background-image: url(../images/quotesFooter.png);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* .modal {
+    margin-bottom: 100px;
+} */
+
+
+/* =====  NAVIGATION  ===== */
+
+.navbar-bottom {
+    background-color: rgb(76, 62, 51);
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+#home-button {
+    width: 20%;
+    height: 50px;
+    float: left;
+    background-color: rgb(120, 96, 78);
+    text-align: center;
+}
+
+#bride-button {
+    width: 20%;
+    height: 50px;
+    float: left;
+    color: rgb(121, 97, 87);
+    text-align: center;
+}
+
+#event-button {
+    width: 20%;
+    height: 50px;
+    float: left;
+    color: rgb(121, 97, 87);
+    text-align: center;
+}
+
+#location-button {
+    width: 20%;
+    height: 50px;
+    float: left;
+    color: rgb(121, 97, 87);
+    text-align: center;
+}
+
+#menu-button {
+    width: 20%;
+    height: 50px;
+    float: left;
+    color: rgb(121, 97, 87);
+    text-align: center;
+}
+
+.title-icon-home {
+    font-size: 11px;
+    color: white;
+}
+
+.title-icon-bride {
+    font-size: 11px;
+    color: #a38263;
+}
+
+.title-icon-event {
+    font-size: 11px;
+    color: #a38263;
+}
+
+.title-icon-location {
+    font-size: 11px;
+    color: #a38263;
+}
+
+.title-icon-menu {
+    font-size: 11px;
+    color: #a38263;
+}
+
+.navbar-icon-home {
+    margin: 0 auto;
+    float: center;
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    /*background-image: url(../icons/home-icon.png);*/
+}
+
+.navbar-icon-bride {
+    margin: 0 auto;
+    float: center;
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    /*background-image: url(../icons/bride-icon.png);*/
+}
+
+.navbar-icon-event {
+    margin: 0 auto;
+    float: center;
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    /*background-image: url(../icons/event-icon.png);*/
+}
+
+.navbar-icon-location {
+    margin: 0 auto;
+    float: center;
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    /*background-image: url(../icons/location-icon.png);*/
+}
+
+.navbar-icon-menu {
+    margin: 0 auto;
+    float: center;
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    /*background-image: url(../icons/menu-icon.png);*/
+}
+
+.clear-both {
+    clear: both;
+}
+
+
+/* ===== NAVBAR POPUP ===== */
+
+.menu-content {
+    margin-top: 35px;
+    height: 250px;
+    color: rgb(241, 239, 239);
+}
+
+.menu-content-top {
+    padding: 10px;
+}
+
+.icon-frame {
+    float: left;
+    width: 33.33%;
+    /* padding: 10px; */
+    height: 100px;
+}
+
+.icon-frame-bottom {
+    float: center;
+    width: 100%;
+    /* padding: 10px; */
+    height: 100px;
+}
+
+.popup-title {
+    color: white;
+    font-size: 11px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#comment-button {
+    margin: 0 auto;
+    background-color: rgb(120, 96, 78);
+    float: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 2px rgb(214, 179, 141);
+}
+
+#gallery-button {
+    margin: 0 auto;
+    background-color: rgb(120, 96, 78);
+    float: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 2px rgb(214, 179, 141);
+}
+
+#quotes-button {
+    margin: 0 auto;
+    background-color: rgb(120, 96, 78);
+    float: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 2px rgb(214, 179, 141);
+}
+
+.menu-content-bottom {
+    padding: 10px;
+}
+
+#inviteaja-button {
+    margin: 0 auto;
+    background-color: rgb(120, 96, 78);
+    float: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 2px rgb(214, 179, 141);
+}
+
+.poweredby {
+    color: rgb(120, 96, 78);
+    font-weight: bold;
+    font-size: 11px;
+}
+
+
+/* ====== MENU POPUP ====== */
+
+
+/* .menu-board {
+    width: 250px;
+    height: 400 px;
+    background-color: rgb(82, 47, 34);
+} */
+
+
+/* .menu-item {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(133, 82, 67);
+} */
+
+
+/* ====== MENU POPUP ====== */
+
+
+/* The Modal (background) */
+
+.menu-popup {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 170px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.menu-board {
+    background-color: rgb(76, 62, 51);
+    border: solid 2px rgb(214, 179, 141);
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    /* border: 3px solid #442c18; */
+    max-width: 300px;
+    /* width: 80%; */
+}
+
+
+/* The Close Button */
+
+
+/* .close-button {
+    margin: 5px 5px;
+    height: 30px;
+    font-size: 30px;
+    color: rgb(195, 143, 88);
+} */
+
+.close {
+    color: rgb(214, 179, 141);
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(145, 93, 37);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popup-icon-comment {
+    margin: 8px 8px;
+    width: 40px;
+    height: 40px;
+    /*background-image: url(../icons/comment-icon.png);*/
+    background-size: contain;
+}
+
+.popup-icon-gallery {
+    margin: 8px 8px;
+    width: 40px;
+    height: 40px;
+    /*background-image: url(../icons/gallery-icon.png);*/
+    background-size: contain;
+}
+
+.popup-icon-quotes {
+    margin: 8px 8px;
+    width: 40px;
+    height: 40px;
+    /*background-image: url(../icons/quotes-icon.png);*/
+    background-size: contain;
+}
+
+.popup-icon-inviteaja {
+    margin: 8px 8px;
+    width: 40px;
+    height: 40px;
+    /*background-image: url(../icons/info-icon.png);*/
+    background-size: contain;
+}
+
+
+/* ====== GALLERY PREVIEWER ====== */
+
+
+/* The Modal (background) */
+
+.gallery-preview {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 170px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
