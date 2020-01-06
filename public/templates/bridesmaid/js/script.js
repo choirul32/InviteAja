@@ -1,12 +1,5 @@
-// ========= MENU POPUP =========
-
-// MENU POPUP
-// $("#menu-button").click(function() {
-
-//     console.log('MENU BUTTON CLICKED');
-// });
-var colorText = '#2a1b0d';
-var colorHighlight = colorHighlight;
+var colorText = '#8a7373';
+var colorHighlight = 'rgb(120, 96, 78)';
 
 function changeActiveMenu(menu) {
     // console.log(menu);

@@ -23,22 +23,22 @@
         <div id="content-ajax">
         </div>
         <!-- ===== NAVIGATION ===== -->
-        <nav id="navbar" class="navbar-bottom text-center">
+        <nav id="navbar" class="navbar-bottom text-center title-icon">
             <div id="home-button" class="active">
-                <div class="navbar-icon-home" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/home-icon.png') }} );"></div>
+                <div class="navbar-icon-home" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/home-icon.svg') }} );"></div>
                 <div class="clear-both"></div>
                 <div class="title-icon-home">Home</div>
                 <div class="clear-both"></div>
             </div>
             <div id="bride-button">
-                <div class="navbar-icon-bride" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/bride-icon.png') }} );"></div>
+                <div class="navbar-icon-bride" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/bride-icon.svg') }} );"></div>
                 <div class="clear-both"></div>
                 <div class="title-icon-bride">Pengantin</div>
                 <div class="clear-both"></div>
 
             </div>
             <div id="event-button">
-                <div class="navbar-icon-event" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/event-icon.png') }} );"></div>
+                <div class="navbar-icon-event" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/event-icon.svg') }} );"></div>
                 <div class="clear-both"></div>
                 <div class="title-icon-event">Acara</div>
                 <div class="clear-both"></div>
@@ -51,7 +51,7 @@
                 <div class="clear-both"></div>
             </div>
             <div id="menu-button" data-toggle="modal" data-target="#menuModal">
-                <div class="navbar-icon-menu" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/menu-icon.png') }} );"></div>
+                <div class="navbar-icon-menu" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/menu-icon.svg') }} );"></div>
                 <div class="clear-both"></div>
                 <div class="title-icon-menu">Menu</div>
                 <div class="clear-both"></div>

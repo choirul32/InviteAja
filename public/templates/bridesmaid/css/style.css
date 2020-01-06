@@ -253,21 +253,27 @@ body {
     font-size: 30px;
 }
 
-.location-maps {
+/*.location-maps {
+
     margin-top: 20px;
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}*/
+
+.location-maps{
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .location-icon {
-    margin-top: 30px;
+    margin: auto;
     width: 100%;
-    height: 60px;
-    margin-top: 30px;
-    background-image: url(../icons/gmaps-icon.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -447,7 +453,7 @@ body {
 /* =====  NAVIGATION  ===== */
 
 .navbar-bottom {
-    background-color: rgb(195, 173, 114);
+    background-color: rgb(36, 31, 19);
     position: fixed;
     left: 50%;
     bottom: 0;
@@ -462,7 +468,7 @@ body {
     width: 20%;
     height: 50px;
     float: left;
-    background-color: rgb(237, 81, 91);
+    
     text-align: center;
 }
 
@@ -513,6 +519,7 @@ body {
 }
 
 .navbar-icon-bride {
+    
     margin: 0 auto;
     float: center;
     height: 30px;
