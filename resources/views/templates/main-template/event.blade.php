@@ -1,21 +1,48 @@
 <!-- ===== EVENT ===== -->
 <section id="event" class="event border-helper">
-    <div class="event-header border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/eventHeader.png') }} );"></div>
-
-    <div class="event-content text-center border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/eventBackground.png') }} );">
-
-        <div class="event-title">Rangkaian Acara</div>
-        @foreach($event as $data)
-        <div class="event-events">
-            <div class="event-icon" style="background-image: url({{ asset('/templates/'.$name_template.'/images/eventIcon.png') }} );"></div>
-            <div class="event-events-title">{{$data->name}}</div>
-            
-            <h4 class="event-events-date">{{date('l, d F Y', strtotime($data->date))}}</h4>
-            <h4 class="event-events-time">Jam {{$data->time_start}} - {{$data->time_end}} {{$data->timezone}}</h4>
-            <h4 class="event-events-address">{{$data->address}}</h4>
+    <div class="row"></div>
+    <div class="event-intro mb-3">
+        <div>
+            <span>Yang Insyaallah akan dilaksanakan pada</span>
         </div>
-        @endforeach
     </div>
 
-    <div class="event-footer border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/eventFooter.png') }} );"></div>
+    <div class="row event-content">
+        <div class="col-2 content_1" style="background-image: url({{ asset('/templates/'.$name_template.'/images/Qside_a.png') }} );"></div>
+        <div class="col-3 content_2">
+            <span>Sabtu</span><br>
+            <span id="date">01</span><br>
+            <span id="month">FEBRUARY</span><br>
+            <span id="year">2020</span><br>
+        </div>
+        <div class="col-7 content_3">
+            <span><strong>RESEPSI PERNIKAHAN</strong></span><br>
+            <span id="detail">PUKUL 10.00<br>RUMAH MEMPELAI WANITA<br>JL. SAMBIREJO, BRAHU, SIMAN</span><br>
+        </div>
+    </div>
+    <div class="row event-content mt-3">
+        <div class="col-2 content_1" style="background-image: url({{ asset('/templates/'.$name_template.'/images/Qside_a.png') }} );"></div>
+        <div class="col-3 content_2">
+            <span>Sabtu</span><br>
+            <span id="date">01</span><br>
+            <span id="month">FEBRUARY</span><br>
+            <span id="year">2020</span><br>
+        </div>
+        <div class="col-7 content_3">
+            <span><strong>RESEPSI PERNIKAHAN</strong></span><br>
+            <span id="detail">PUKUL 10.00<br>RUMAH MEMPELAI WANITA<br>JL. SAMBIREJO, BRAHU, SIMAN</span><br>
+        </div>
+    </div>
+
+    <div class="bride-intro">
+        <span>
+            Merupakan suatu kehormatan dan kebahagiaan bagi kami <br>
+            apabila bapak ibu saudara berkenan hadir <br>
+            untuk memberikan doa restu kepada kedua mempelai <br>
+        </span>
+
+        <span>wassalaumaalaikum warahmatullahi wabaraktuh</span>
+    </div>
+
+    <div class="home-footer border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/Qfooter_a.png') }} );"></div>
 </section>

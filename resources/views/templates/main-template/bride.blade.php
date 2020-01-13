@@ -1,44 +1,30 @@
 <!-- ===== BRIDE ===== -->
 <section id="bride" class="bride border-helper">
-    <div class="bride-header border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/brideHeader.png') }} );"></div>
-
-    <div class="bride-content text-center border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/brideBackground.png') }} );">
-
-        @foreach($bride as $data)
-
-        <div id="brideIntro" class="bride-intro border-helper">
-            {{$data->intro}}
+    <div class="row"></div>
+    <div class="bride-intro">
+        <div>
+            <span>Assalamualaikum Warahmatullahi wabarakatuh</span><br>
+            <span>Bismillahirrahmanirrahim</span><br>
         </div>
-        <div id="brideMenPhoto" class="bride-photo border-helper">
-            <img src="{{asset('templates/oreocream/bride/'.$data->men_profil_url.'')}}" alt="#">
+        <div class="mt-4">
+            <span>
+                Dengan memohon rahmat dan ridho allah swt <br>
+                Kami Bermaksud mengundang bapak manghadiri <br>
+                acara resepsi pernikahan putra putri kami
+            </span>
         </div>
-
-        <div id="brideMenName" class="bride-name border-helper">
-            {{$data->men_long_name}}
-        </div>
-
-        <div id="brideNameParents" class="bride-parents border-helper">
-            {{$data->men_parents_name}}
-        </div>
-
-        <div id="brideWomanPhoto" class="bride-photo border-helper">
-            <img src="{{asset('templates/oreocream/bride/'.$data->women_profil_url.'')}}" alt="#">
-        </div>
-
-        <div id="brideWomanName" class="bride-name border-helper">
-            {{$data->women_long_name}}
-        </div>
-
-        <div id="brideWomanParents" class="bride-parents border-helper">
-            {{$data->women_parents_name}}
-        </div>
-
-        <div class="bride-outro border-helper">
-            {{$data->outro}}
-        </div>
-
-        @endforeach
-
+        
     </div>
-    <div class="bride-footer border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/brideFooter.png') }} );"></div>
+    <div class="row bride-content">
+        <div class="col-12"><img src="{{ asset('/templates/'.$name_template.'/bride/men.png') }}"></div>
+        <div class="col-12 bride-name">Oky nur Bagaskara A.Md</div>
+        <div class="col-12 bride-parents">Putra dari bpk nurhendratmoko bla bla bla bla bla</div>
+    </div>
+
+    <div class="row bride-content">
+        <div class="col-12"><img src="{{ asset('/templates/'.$name_template.'/bride/women.png') }}"></div>
+        <div class="col-12 bride-name">Berlian Enggarani M.Pd</div>
+        <div class="col-12 bride-parents">Putra dari bpk nurhendratmoko bla bla bla bla bla</div>
+    </div>
+    <div class="home-footer border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/Qfooter_a.png') }} );"></div>
 </section>

@@ -4,19 +4,17 @@ body {
     margin: 20px;
 }
 
-
-/* .border-helper {
-    border: solid 1px rgb(156, 123, 95);
-} */
-
 .container {
-    /* .content-background { */
     max-width: 480px;
     min-height: 100vh;
-    /* background-image: url(../images/bgcanvas.jpg); */
     background-size: cover;
     padding-bottom: 60px;
     padding-top: 30px;
+}
+
+.container-location {
+    max-width: 480px;
+    min-height: 100vh;
 }
 
 
@@ -111,6 +109,25 @@ body {
 
 .bride {
     height: auto;
+    font-family: Constantia, "Palatino Linotype", Palatino, Georgia, serif; /* or */
+}
+
+.bride-intro{
+    font-size: 11px;
+    /*font-family: 'Satisfy', cursive;*/
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bride-content{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(131, 147, 155);
+}
+
+.bride-content img{
+    
+    height: 120px;
 }
 
 .bride-header {
@@ -119,22 +136,6 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-}
-
-.bride-content {
-    max-width: 360px;
-    margin: 0 auto;
-    padding: 5px 20px;
-    background-image: url(../images/brideBackground.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.bride-intro {
-    font-family: 'Satisfy', cursive;
-    font-size: 18px;
-    color: rgb(131, 147, 155);
 }
 
 .bride-photo img {
@@ -146,14 +147,14 @@ body {
 }
 
 .bride-name {
-    font-family: 'Satisfy', cursive;
     font-size: 25px;
+    text-transform: capitalize;
 }
 
 .bride-parents {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 9px;
     color: rgb(131, 147, 155);
+    text-transform: uppercase;
 }
 
 .bride-outro {
@@ -174,24 +175,60 @@ body {
 
 /* =====  EVENT  ===== */
 
-.event {}
+.event {
+    height: auto;
+    font-family: Constantia, "Palatino Linotype", Palatino, Georgia, serif; /* or */
+}
+
+.event-intro{
+    font-size: 11px;
+    /*font-family: 'Satisfy', cursive;*/
+    text-align: center;
+    text-transform: uppercase;
+}
 
 .event-header {
     height: 80px;
-    background-image: url(../images/eventHeader.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
-.event-content {
-    max-width: 360px;
-    margin: 0 auto;
-    padding: 5px 20px;
-    background-image: url(../images/eventBackground.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+.event-content .content_1{
+    font-size: 12px;
+    text-align: left;
+    background-size: cover;
     background-position: center;
+}
+
+.event-content .content_2{
+    line-height: 1;
+    text-align: right;
+    border-right: 2px solid;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.event-content .content_2 #date{
+    font-size: 30px;
+}
+
+.event-content .content_2 #month{
+    font-size: 10px;
+}
+
+.event-content .content_2 #year{
+    font-size: 10px;
+}
+
+
+
+.event-content .content_3{
+    font-size: 11px;
+    text-align: left;
+}
+
+.event-content .content_3 #detail{
+    font-family: "Times New Roman", Times, serif;
 }
 
 .event-title {
@@ -253,22 +290,11 @@ body {
     font-size: 30px;
 }
 
-/*.location-maps {
-
-    margin-top: 20px;
-    width: 100%;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}*/
-
 .location-maps{
-    background-position: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    background-position-x: center;
     background-repeat: no-repeat;
     background-size: contain;
+    height: 500px;
 }
 
 .location-icon {
