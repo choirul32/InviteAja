@@ -1,0 +1,16 @@
+Undangan Invite Aja untuk Senin 
+
+Font yg dipake, make dicek diresource google 
+Nama Font (Constantia"untuk Pengantin, Lokasi", Dubai "untuk Acara")
+Warna Palette Icon yg dipakai (v)
+> R:190 G:152 B:50 	(#BE9832) Warna Emas
+> R:51 G:44 B:43 	(#332C2B) Warna Hitam
+> R:254 G:254 B:254 	(#FEFEFE) Warna Putih
+> R:266 G:265 B:262 	(#F6F5F2) Warna Abu Abu 
+Tambahan musik dibackground (diperkirakan bisa dibikin tapi nanti tapi menunggu yang lainnya kelar dulu)
+Edit 1 foto untuk diperbaiki lebih sopan (v)
+Resize ukuran foto biar diupload tidak besar : https://drive.google.com/open?id=1h27TiriTzEGD9qpfkavX90VbF_qO-Mcn (v) 
+rename nama .bride-photo untuk avatar pengantin (v)
+pakai foto yg udah ada untuk .bride-photo (v)
+Icon rumah bride (v)
+Title Oky & Berlian (v)

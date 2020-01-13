@@ -87,8 +87,8 @@ body {
 }
 
 .home-address {
-    font-size: 35px;
-    font-family: 'Satisfy', cursive;
+    font-size: 27px;
+    font-family: Constantia, "Palatino Linotype", Palatino, Georgia, serif;
     text-align: center;
     margin-bottom: -50px;
     color: rgb(131, 147, 155);
@@ -98,7 +98,7 @@ body {
     height: 140px;
     background-image: url(../images/homeFooter.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     margin-left: -25px;
     margin-right: -25px;
@@ -114,6 +114,7 @@ body {
 
 .bride-intro{
     font-size: 11px;
+    margin-top: 30px;
     /*font-family: 'Satisfy', cursive;*/
     text-align: center;
     text-transform: uppercase;
@@ -127,7 +128,7 @@ body {
 
 .bride-content img{
     
-    height: 120px;
+    height: 100px;
 }
 
 .bride-header {
@@ -194,14 +195,23 @@ body {
     background-position: center;
 }
 
+.event-content{
+    height: 120px;
+}
+
 .event-content .content_1{
-    font-size: 12px;
+    padding: 8px 0 8px 8px;
     text-align: left;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
 }
 
 .event-content .content_2{
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: -10px;
     line-height: 1;
     text-align: right;
     border-right: 2px solid;
@@ -220,11 +230,17 @@ body {
     font-size: 10px;
 }
 
+.event-content .content_2 #hari{
+    font-size: 10px;
+}
+
 
 
 .event-content .content_3{
+    padding-left: 10px;
     font-size: 11px;
     text-align: left;
+    padding-top: 20px;
 }
 
 .event-content .content_3 #detail{
@@ -325,11 +341,15 @@ body {
 
 /* =====  COMMENT  ===== */
 
+.btn-comment {
+    color: #fff;
+    background-color: #a99664;
+    border-color: #a99664;
+}
 .comment {}
 
 .comment-header {
     height: 80px;
-    background-image: url(../images/commentHeader.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -385,8 +405,7 @@ body {
 .gallery {}
 
 .gallery-header {
-    height: 80px;
-    background-image: url(../images/galleryHeader.png);
+    height: 20px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -434,8 +453,7 @@ body {
 .quotes {}
 
 .quotes-header {
-    height: 110px;
-    background-image: url(../images/quotesHeader.png);
+    height: 20px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -444,7 +462,6 @@ body {
 .quotes-content {
     margin: 60px 20px;
     /* max-width: 360px; */
-    background-image: url(../images/quotesBackground.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -621,32 +638,32 @@ body {
 
 #comment-button {
     margin: 0 auto;
-    background-color: rgb(122, 12, 16);
+    background-color: rgba(128, 113, 75, 0.47);
     float: center;
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    border: solid 2px rgb(237, 81, 91);
+    border: solid 2px rgb(114, 91, 30);
 }
 
 #gallery-button {
     margin: 0 auto;
-    background-color: rgb(122, 12, 16);
+    background-color: rgba(128, 113, 75, 0.47);
     float: center;
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    border: solid 2px rgb(237, 81, 91);
+    border: solid 2px rgb(114, 91, 30);
 }
 
 #quotes-button {
     margin: 0 auto;
-    background-color: rgb(122, 12, 16);
+    background-color: rgba(128, 113, 75, 0.47);
     float: center;
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    border: solid 2px rgb(237, 81, 91);
+    border: solid 2px rgb(114, 91, 30);
 }
 
 .menu-content-bottom {
@@ -655,12 +672,12 @@ body {
 
 #inviteaja-button {
     margin: 0 auto;
-    background-color: rgb(122, 12, 16);
+    background-color: rgba(128, 113, 75, 0.47);
     float: center;
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    border: solid 2px rgb(237, 81, 91);
+    border: solid 2px rgb(114, 91, 30);
 }
 
 .poweredby {
@@ -720,8 +737,8 @@ body {
 /* Modal Content */
 
 .menu-board {
-    background-color: rgb(183, 29, 35);
-    border: solid 2px rgb(237, 81, 91);
+    background-color: rgb(22, 19, 11);
+    border: solid 2px rgb(22, 19, 11);
     margin: auto;
     padding: 20px;
     border-radius: 15px;

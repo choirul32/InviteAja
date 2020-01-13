@@ -36,12 +36,10 @@
         <div class="col-3 home-side" style="background-image: url({{ asset('/templates/'.$name_template.'/images/Qside_b.png') }} );"></div>
     </div>
     <div class="">
-        @foreach($event as $data)
-        @if($data->show_home=="true")
-        <div id="homeDate" class="home-date border-helper text-center m-auto">{{date("d-m-Y",strtotime($data->date))}}</div>
-        <div id="homeAddress" class="home-address border-helper">{{$data->address}}</div>
-        @endif
-        @endforeach
+        
+        <div id="homeDate" class="home-date border-helper text-center m-auto">05-11-2019</div>
+        <div id="homeAddress" class="home-address border-helper">Graha Watoe Dhakon <br>IAIN Ponorogo</div>
+        
     </div>
     <div class="home-footer border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/Qfooter_a.png') }} );"></div>
 

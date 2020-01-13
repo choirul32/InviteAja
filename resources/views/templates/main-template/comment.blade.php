@@ -66,7 +66,7 @@
                 <input type="text" name="comment" class="form-control" />
             </div>
             <div class="text-center">
-                <button type="submit" value="submit" class="btn button-send-comment btn-danger">Kirim Ucapan</button>
+                <button type="submit" value="submit" class="btn button-send-comment btn-comment">Kirim Ucapan</button>
             </div>
         </form>
 
@@ -89,5 +89,5 @@
         </div>
 
     </div>
-    <div class="comment-footer border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/commentFooter.png') }} );"></div>
+    <div class="home-footer border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/Qfooter_a.png') }} );"></div>
 </section>
