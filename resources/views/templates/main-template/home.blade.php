@@ -1,6 +1,6 @@
 <!-- ===== HOME ===== -->
 <section id="home" class="home border-helper">
-    <div class="home-header border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/QHeader.png') }} );"></div>
+    <div class="home-header border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/Qheader.png') }} );"></div>
 
     {{-- <div class="home-content border-helper">
 
@@ -24,11 +24,12 @@
         <div class="col-3 home-side" style="background-image: url({{ asset('/templates/'.$name_template.'/images/Qside_a.png') }} );"></div>
         <div class="col-6 my-auto text-center" >
             @foreach($home as $data)
-            <div id="homeMen" class="home-men border-helper">{{$data->men_nick_name}}</div>
+            
+            
+            <div id="homeWomen" class="home-women border-helper">{{$data->woman_nick_name}}</div>
             <div class="home-separator border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/separator.png') }} );">
             </div>
-            <div id="homeWomen" class="home-women border-helper">{{$data->woman_nick_name}}</div>
-
+            <div id="homeMen" class="home-men border-helper">{{$data->men_nick_name}}</div>
             <!-- <div id="homeTitle" class="home-title border-helper">{{$data->title}}</div> -->
             @endforeach
             
@@ -37,7 +38,7 @@
     </div>
     <div class="">
         
-        <div id="homeDate" class="home-date border-helper text-center m-auto">05-11-2019</div>
+        <div id="homeDate" class="home-date border-helper text-center m-auto">02.02.2020</div>
         <div id="homeAddress" class="home-address border-helper">Graha Watoe Dhakon <br>IAIN Ponorogo</div>
         
     </div>

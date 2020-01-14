@@ -68,24 +68,24 @@
 
                     <div class="menu-content-top">
                         <div class="icon-frame">
-                            <div id="comment-button" class="comment-button">
-                                <div class="popup-icon-comment" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/comment-icon.png') }} );"></div>
+                            <div id="comment-button" class="other-button">
+                                <div class="popup-icon-comment" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/mn_comm.svg') }} );"></div>
                             </div>
                             <div class="clear-both"></div>
                             <div class="popup-title">Komentar</div>
                         </div>
 
                         <div class="icon-frame">
-                            <div id="gallery-button" class="gallery-button">
-                                <div class="popup-icon-gallery" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/gallery-icon.png') }} );"></div>
+                            <div id="gallery-button" class="other-button">
+                                <div class="popup-icon-gallery" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/mn_pic.svg') }} );"></div>
                             </div>
                             <div class="clear-both"></div>
                             <div class="popup-title">Galeri</div>
                         </div>
 
                         <div class="icon-frame">
-                            <div id="quotes-button" class="quotes-button">
-                                <div class="popup-icon-quotes" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/quotes-icon.png') }} );"></div>
+                            <div id="quotes-button" class="other-button">
+                                <div class="popup-icon-quotes" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/mn_quo.svg') }} );"></div>
                             </div>
                             <div class="clear-both"></div>
                             <div class="popup-title">Kata Mutiara</div>
@@ -100,8 +100,8 @@
                     <div class="menu-content-bottom">
 
                         <div class="icon-frame-bottom">
-                            <div id="inviteaja-button" class="inviteaja-button">
-                                <div class="popup-icon-inviteaja" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/info-icon.png') }} );"></div>
+                            <div id="inviteaja-button" class="other-button">
+                                <div class="popup-icon-inviteaja" style="background-image: url({{ asset('/templates/'.$data->name.'/icons/mn_InviteAja.svg') }} );"></div>
                             </div>
                             <div class="clear-both"></div>
 

@@ -16,16 +16,18 @@
         </div>
         
     </div>
-    <div class="row bride-content">
-        <div class="col-12"><img src="{{ asset('/templates/'.$name_template.'/bride/men.png') }}"></div>
-        <div class="col-12 bride-name">Oky nur Bagaskara, A.Md</div>
-        <div class="col-12 bride-parents">Putra dari bpk. nurhendratmoko & ibu naniek rujiati, S.Sos</div>
-    </div>
+    
 
-    <div class="row bride-content">
+    <div class="row bride-content mt-3">
         <div class="col-12"><img src="{{ asset('/templates/'.$name_template.'/bride/women.png') }}"></div>
         <div class="col-12 bride-name">Berlian Enggarani, M.Pd</div>
         <div class="col-12 bride-parents">Putra dari bpk. Aiptu suminto & ibu endang dwikorawati, M. Pd</div>
+    </div>
+
+    <div class="row bride-content mt-3">
+        <div class="col-12"><img src="{{ asset('/templates/'.$name_template.'/bride/men.png') }}"></div>
+        <div class="col-12 bride-name">Oky nur Bagaskara, A.Md</div>
+        <div class="col-12 bride-parents">Putra dari bpk. nurhendratmoko & ibu naniek rujiati, S.Sos</div>
     </div>
     <div class="home-footer border-helper" style="background-image: url({{ asset('/templates/'.$name_template.'/images/Qfooter_a.png') }} );"></div>
 </section>

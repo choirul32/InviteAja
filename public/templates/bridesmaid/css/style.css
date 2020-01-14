@@ -50,7 +50,7 @@ body {
 
 .home-men {
     margin-bottom: -15px;
-    font-size: 70px;
+    font-size: 85px;
     font-family: 'Alex Brush', cursive;
 }
 
@@ -64,7 +64,7 @@ body {
 
 .home-women {
     margin-top: -15px;
-    font-size: 70px;
+    font-size: 85px;
     font-family: 'Alex Brush', cursive;
     text-align: right;
     margin-left: -20px;
@@ -80,18 +80,18 @@ body {
 }
 
 .home-date {
-    font-size: 20px;
-    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
     text-align: center;
-    color: rgb(131, 147, 155);
+    color: rgb(23, 24, 25);
 }
 
 .home-address {
-    font-size: 27px;
+    font-size: 25px;
     font-family: Constantia, "Palatino Linotype", Palatino, Georgia, serif;
     text-align: center;
     margin-bottom: -50px;
-    color: rgb(131, 147, 155);
+    color: rgb(23, 24, 25);
 }
 
 .home-footer {
@@ -118,12 +118,13 @@ body {
     /*font-family: 'Satisfy', cursive;*/
     text-align: center;
     text-transform: uppercase;
+    color: rgb(91, 99, 103);
 }
 
 .bride-content{
     font-size: 12px;
     text-align: center;
-    color: rgb(131, 147, 155);
+    color: rgb(91, 99, 103);
 }
 
 .bride-content img{
@@ -154,7 +155,7 @@ body {
 
 .bride-parents {
     font-size: 9px;
-    color: rgb(131, 147, 155);
+    color: rgb(117, 121, 123);
     text-transform: uppercase;
 }
 
@@ -231,7 +232,8 @@ body {
 }
 
 .event-content .content_2 #hari{
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 
@@ -314,6 +316,8 @@ body {
 }
 
 .location-icon {
+    font-family: Constantia, "Palatino Linotype", Palatino, Georgia, serif;
+    line-height: 1 !important;
     margin: auto;
     width: 100%;
     background-repeat: no-repeat;
@@ -377,18 +381,18 @@ body {
 .comment-list-item {
     margin: 15px 20px;
     border-radius: 5px;
-    border: solid 1px rgb(53, 60, 75);
-    background-color: rgb(23, 29, 41);
+    border: solid 1px #ab9e79;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
 }
 
 .comment-list-item-name {
-    color: rgb(255, 255, 255);
+    color: #826308;
     font-weight: bold;
 }
 
 .comment-list-item-message {
-    color: rgb(168, 178, 199);
+    color: rgb(51, 51, 51);
 }
 
 .comment-footer {
@@ -636,17 +640,16 @@ body {
     text-align: center;
 }
 
-#comment-button {
+.other-button {
     margin: 0 auto;
-    background-color: rgba(128, 113, 75, 0.47);
     float: center;
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    border: solid 2px rgb(114, 91, 30);
+    border: solid 2px rgba(0, 0, 0, 0);
 }
 
-#gallery-button {
+/*gallery-button {
     margin: 0 auto;
     background-color: rgba(128, 113, 75, 0.47);
     float: center;
@@ -664,13 +667,13 @@ body {
     height: 60px;
     border-radius: 10px;
     border: solid 2px rgb(114, 91, 30);
-}
+}*/
 
 .menu-content-bottom {
     padding: 10px;
 }
 
-#inviteaja-button {
+/*#inviteaja-button {
     margin: 0 auto;
     background-color: rgba(128, 113, 75, 0.47);
     float: center;
@@ -678,10 +681,10 @@ body {
     height: 60px;
     border-radius: 10px;
     border: solid 2px rgb(114, 91, 30);
-}
+}*/
 
 .poweredby {
-    color: rgb(122, 12, 16);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 11px;
 }

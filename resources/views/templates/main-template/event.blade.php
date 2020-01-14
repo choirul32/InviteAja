@@ -3,7 +3,7 @@
     <div class="row justify-content-center mb-4 mt-4"><img src="{{ asset('/templates/'.$name_template.'/images/JogloIconWedd.png') }}" height="60"></div>
     <div class="event-intro mb-3">
         <div>
-            <span>Yang Insya allah akan dilaksanakan pada</span>
+            <span>Save The Date</span>
         </div>
     </div>
 
@@ -36,9 +36,8 @@
 
     <div class="bride-intro">
         <span>
-            Merupakan suatu kehormatan dan kebahagiaan bagi kami <br>
-            apabila bapak/ibu/saudara berkenan hadir <br>
-            untuk memberikan doa restu kepada kedua mempelai <br>
+            an honor and happiness if you attend our wedding <br>
+            we hope to see you there . <br>
         </span>
         <br><br>
         <span>wassalamua`alaikum warahmatullaahi wabarakatuh</span>
